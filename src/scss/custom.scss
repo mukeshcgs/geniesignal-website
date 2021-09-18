@@ -1,0 +1,48 @@
+  html {
+      font-size: 14px;
+      letter-spacing: 0.5px;
+  }
+  
+  body {
+      margin: 0;
+      /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .btn {
+      letter-spacing: 1px;
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: $clr-primary;
+      border-color: $clr-primary-dark;
+      background-image: linear-gradient(90deg, $clr-primary-g1 5%, $clr-primary-g2);
+  }
+  
+  .btn-primary.focus,
+  .btn-primary:focus {
+      color: #fff;
+      background-color: $clr-primary;
+      border-color: $clr-primary-dark;
+      background-image: linear-gradient(90deg, $clr-primary-g1 5%, $clr-primary-g2);
+      box-shadow: 0 0 0 0.2rem rgb(38 255 163 / 50%);
+  }
+  
+  .btn-primary:hover {
+      background-color: $clr-primary;
+      border-color: $clr-primary-dark;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show>.btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: $clr-primary;
+      border-color: $clr-primary-dark;
+  }

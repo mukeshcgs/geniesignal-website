@@ -1,0 +1,23 @@
+.hero-sec {
+    height: 100vh;
+    display: flex;
+    background: #110031;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    h1 {
+        font-weight: 100;
+    }
+    .cta {
+        button {
+            border-radius: 2rem;
+            font-size: 1rem;
+            // text-transform: uppercase;
+            font-weight: 300;
+            padding: 0.75rem 1.75rem;
+        }
+    }
+}
