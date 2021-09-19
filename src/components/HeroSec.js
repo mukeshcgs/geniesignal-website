@@ -15,13 +15,13 @@ const HeroSec = () => {
             <Row>
                 <Col sm={7}>
                     <div className="gen-card">
-                        <h1>OWN AND USE TRADING TECHNOLOGY FROM GLOBAL COMPETING DEVELOPERS</h1>
+                        <h1><b>OWN</b> AND <b>USE</b> TRADING TECHNOLOGY FROM GLOBAL COMPETING DEVELOPERS</h1>
                         <p>Top automatic trading tools that deploy instantly to your broker account.</p>
                         <div className="cta mb-3">
                             <Button size="lg">Launch The App</Button>
                             <Button size="lg">Pricing</Button>
                         </div>
-                        <p>TRADING DEVELOPERS PROVE THE WORTH OF THEIR TECHNOLOGY BY COMPETING FOR LISTING</p>
+                        <h3>TRADING DEVELOPERS PROVE THE WORTH OF THEIR TECHNOLOGY BY COMPETING FOR LISTING</h3>
                     </div>
                 </Col>
                 {/* <Col sm={5}>
