@@ -19,6 +19,23 @@
       padding: 5rem 0;
   }
   
+  .bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 0;
+      max-width: 100%;
+      margin: auto;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      pointer-events: none;
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
+      -webkit-animation: gradient_fadein__1rIK_ .3s ease forwards;
+      animation: gradient_fadein__1rIK_ .3s ease forwards;
+  }
+  
   .sec-heading {
       margin-bottom: 2.5rem;
   }
