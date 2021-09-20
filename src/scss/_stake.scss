@@ -1,5 +1,5 @@
 .stake-sec {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     background: #110031;
     align-content: center;
@@ -8,7 +8,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     color: white;
-    padding: 1rem;
     transition: all 0.8s ease-in-out;
     .step-num {
         display: flex;
@@ -36,17 +35,17 @@
         font-weight: 200;
         margin-bottom: 2.5rem;
     }
-    &:hover {
-        box-shadow: 10px 10px 100px 0 rgb(138 81 251);
-        transition: all 0.8s ease-in-out;
-        .step-num {
-            border: 0px solid $clr-primary-dark;
-            background-clip: text !important;
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent;
-            background: linear-gradient(to right, #354c7e, #FE4988 50%);
-            background-position: 0 0;
-            transition: all 0.8s ease-in-out;
-        }
-    }
+    // &:hover {
+    //     box-shadow: 10px 10px 100px 0 rgb(138 81 251);
+    //     transition: all 0.8s ease-in-out;
+    //     .step-num {
+    //         border: 0px solid $clr-primary-dark;
+    //         background-clip: text !important;
+    //         -webkit-background-clip: text !important;
+    //         -webkit-text-fill-color: transparent;
+    //         background: linear-gradient(to right, #354c7e, #FE4988 50%);
+    //         background-position: 0 0;
+    //         transition: all 0.8s ease-in-out;
+    //     }
+    // }
 }

@@ -12,7 +12,7 @@ const defaultProps = {};
 const SecHowStake = () => {
     return <section className="stake-sec" >
         <Container id="stake-sec">
-            <Row>
+            <Row className="sec-heading">
                 <Col sm={12}>
                     <h1>How can I <b>stake ownership in trading tech</b> that works for me?</h1>
                 </Col>
