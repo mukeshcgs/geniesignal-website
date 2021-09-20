@@ -24,23 +24,10 @@ const SecHowStake = () => {
                         </p>
                         <p>Genie Signal creates an NFT for trading technology that many investors can own and use. Load Ethereum into your MetaMask wallet, select the trading technology you want to own, and press the stake button.</p>
                     </div>
-                </Col>
-                <Col sm={6}>
-                </Col>
-            </Row>
-            <Row>
-                <Col sm={6}>
                     <div className=" ">
                         <h2>Payments and Rewards    </h2>
                         <p>There is no minimum, 1/3 of the funds goes to the developer, and 1/3 goes back to staking owners of the trading technology.</p>
-                    </div>
-                </Col>
-                <Col sm={6}>
-                </Col>
-            </Row>
-            <Row>
-                <Col sm={6}>
-                    <div className=" ">
+                    </div><div className=" ">
                         <h2>Owners receive 1/3 of generated license fees from the use of their selected trading technology</h2>
                         <p>Now you can make money not only using, but staking trading algorithms.</p>
 
@@ -48,9 +35,14 @@ const SecHowStake = () => {
                             <Button size="lg">Launch The App</Button>
                         </div>
                     </div>
-                </Col> <Col sm={6}>
+                </Col>
+                <Col sm={6}>
+                    <div>
+                        <img width="100%" src="media/img/stake.png" alt="Genie Signal" />
+                    </div>
                 </Col>
             </Row>
+
         </Container>
     </section>;
 }
