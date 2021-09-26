@@ -120,4 +120,7 @@ $screen-ms:480px;
 $screen-xs:320px;
 main {
     min-height: 100vh;
+    @media (max-width: 768px) {
+        min-height: 50vh;
+    }
 }
