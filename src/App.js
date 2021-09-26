@@ -21,6 +21,7 @@ import Footer from './components/Footer';
 // import RouterExample from './router';
 import Home from './pages/Home';
 import Developer from './pages/Developer';
+import Faq from './pages/Faq';
 function App() {
   return (<Router>
     <div className="App">
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/developers">
             <Developer />
+          </Route>
+          <Route exact path="/faq">
+            <Faq />
           </Route>
         </Switch>
       </main>

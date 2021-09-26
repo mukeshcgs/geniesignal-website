@@ -28,9 +28,9 @@ const Navigation = () => {
         {/* <Link to="/developers">developers</Link> */}
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/developers">Developers</Nav.Link>
-        <Nav.Link href="#features">Launch The App</Nav.Link>
-        <Nav.Link href="#features">Download MetaMask</Nav.Link>
-        <Nav.Link href="#deets">FAQ</Nav.Link>
+        <Nav.Link href="https://geniesignal.webflow.io/" target="_blank">Launch The App</Nav.Link>
+        <Nav.Link href="https://metamask.io/download" target="_blank">Download MetaMask</Nav.Link>
+        <Nav.Link href="/faq">FAQ</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;

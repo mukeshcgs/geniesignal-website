@@ -1,14 +1,9 @@
-import '../App.scss';
 
-import Navigation from '../components/Navbar';
-import SecPricing from '../components/SecPricing';
-import Footer from '../components/Footer';
-
-function Home() {
+function Devlopres() {
     return (
-        <div className="App">
+        <div className="faq">
+
         </div>
     );
 }
-
-export default Home;
+export default Devlopres;

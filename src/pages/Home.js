@@ -13,15 +13,13 @@ import Footer from '../components/Footer';
 function Home() {
     return (
         <div className="App">
-            <main>
-                <HeroSec />
-                <SecOne />
-                <SecSteps />
-                <SecTwo />
-                <SecHowStake />
-                <SecThree />
-                <SecPricing />
-            </main>
+            <HeroSec />
+            <SecOne />
+            <SecSteps />
+            <SecTwo />
+            <SecHowStake />
+            <SecThree />
+            <SecPricing />
         </div>
     );
 }

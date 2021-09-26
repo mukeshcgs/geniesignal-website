@@ -1,0 +1,41 @@
+.faq-sec {
+    display: flex;
+    background: #110031;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    h1 {
+        font-weight: 200;
+        background-clip: text !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent;
+        background: linear-gradient(to right, #2567F9, #FE4988 50%);
+        background-position: 0 0;
+        transition: all 0.8s ease-in-out;
+    }
+    .accordion {
+        .card {
+            background-color: transparent;
+            border: 1px solid #2c007d;
+            border-radius: 4px;
+            .card-header {
+                .btn {
+                    color: $clr-primary;
+                }
+                &.btn-link {
+                    color: #FE4988;
+                }
+            }
+            .collapse {
+                &.show {
+                    border-top: 1px solid #2c007d;
+                }
+                .card-body {
+                    color: #d8c4ff;
+                }
+            }
+        }
+    }
+}
