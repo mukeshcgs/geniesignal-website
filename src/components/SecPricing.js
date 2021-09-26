@@ -13,7 +13,7 @@ const SecPricing = () => {
     return <section className="price-sec" >
         <Container id="price-sec">
             <Row className="sec-heading">
-                <Col sm={12}>
+                <Col sm={12} className="text-center">
                     <h1>Discover our <b>Pricing </b></h1>
                     <p>Algorithms are tested and free for the first 6 months, then, users can stake these amounts
                     </p>

@@ -2,6 +2,13 @@ import React from 'react';
 // import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 const propTypes = {};
 
 const defaultProps = {};
@@ -17,8 +24,10 @@ const Navigation = () => {
       <Nav className="mr-auto">
       </Nav>
       <Nav>
-        <Nav.Link href="#features">Home</Nav.Link>
-        <Nav.Link href="#features">Developers</Nav.Link>
+        {/* <Link to="/">Home</Link> */}
+        {/* <Link to="/developers">developers</Link> */}
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/developers">Developers</Nav.Link>
         <Nav.Link href="#features">Launch The App</Nav.Link>
         <Nav.Link href="#features">Download MetaMask</Nav.Link>
         <Nav.Link href="#deets">FAQ</Nav.Link>

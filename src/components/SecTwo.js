@@ -15,14 +15,17 @@ const SecTwo = () => {
 
         <Container id="steps-sec"  >
             <Row>
-                <Col sm={12}>
+                <Col sm={7}>
                     <div className=" ">
-                        <h1>Access all licensed algos by owning trading technology of your choice</h1>
+                        <h1><b>Access all licensed algos</b> by owning <b>trading technology</b> of your choice</h1>
                         <p>Algo's that are older than three months are only available to Genie Signal trading technology owners.</p>
                         <div className="cta mb-3">
                             <Button size="lg">Pricing</Button>
                         </div>
                     </div>
+                </Col>
+                <Col sm={5}>
+                    <img class="" width="350" src="media/img/genie.png" alt="" />
                 </Col>
             </Row>
         </Container>

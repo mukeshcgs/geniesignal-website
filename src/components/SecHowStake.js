@@ -18,21 +18,21 @@ const SecHowStake = () => {
                     <h1>How can I <b>stake ownership in trading tech</b> that works for me?</h1>
                 </Col>
             </Row>
-            <Row>
+            <Row className="ownership">
                 <Col sm={6}>
-                    <div className=" ">
+                    <div >
                         <p>After 3-6 months of a new trading technology successfully listing on Genie Signal, access is available only to licensed users.
                         </p>
                         <p>Genie Signal creates an NFT for trading technology that many investors can own and use. Load Ethereum into your MetaMask wallet, select the trading technology you want to own, and press the stake button.</p>
                     </div>
-                    <div className=" ">
+                    <div className="mb-4">
                         <h2>Payments and Rewards    </h2>
                         <p>There is no minimum, 1/3 of the funds goes to the developer, and 1/3 goes back to staking owners of the trading technology.</p>
-                    </div><div className=" ">
+                    </div><div className="mb-4">
                         <h2>Owners receive 1/3 of generated license fees from the use of their selected trading technology</h2>
                         <p>Now you can make money not only using, but staking trading algorithms.</p>
 
-                        <div className="cta mb-3">
+                        <div className="cta mb-4">
                             <Button size="lg">Launch The App</Button>
                         </div>
                     </div>
