@@ -1,8 +1,10 @@
-
+import DevSec from '../components/DevSec'
+import DevSecOne from '../components/DevSecOne'
 function Devlopres() {
     return (
-        <div className="faq">
-
+        <div className="dev">
+            <DevSec />
+            <DevSecOne />
         </div>
     );
 }
