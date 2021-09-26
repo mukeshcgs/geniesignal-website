@@ -10,7 +10,7 @@ const defaultProps = {};
  * 
  */
 const SecOne = () => {
-    return <header className="sec-one" >
+    return <section className="sec-one" >
         <Container id="sec-one"  >
             <Row>
                 <Col sm={1}></Col>
@@ -24,7 +24,7 @@ const SecOne = () => {
                 <Col sm={1}></Col>
             </Row>
         </Container>
-    </header>;
+    </section>;
 }
 
 SecOne.propTypes = propTypes;

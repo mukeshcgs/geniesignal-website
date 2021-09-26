@@ -25,7 +25,7 @@ const SecTwo = () => {
                     </div>
                 </Col>
                 <Col sm={5}>
-                    <img class="" width="350" src="media/img/genie.png" alt="" />
+                    <img class="" width="100%" src="media/img/genie.png" alt="" />
                 </Col>
             </Row>
         </Container>

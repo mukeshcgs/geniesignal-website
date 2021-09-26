@@ -19,7 +19,7 @@ const SecHowStake = () => {
                 </Col>
             </Row>
             <Row className="ownership">
-                <Col sm={6}>
+                <Col sm={5}>
                     <div >
                         <p>After 3-6 months of a new trading technology successfully listing on Genie Signal, access is available only to licensed users.
                         </p>
@@ -37,7 +37,7 @@ const SecHowStake = () => {
                         </div>
                     </div>
                 </Col>
-                <Col sm={6}>
+                <Col sm={7}>
                     <img class="bg" src="media/img/bg-Y.png" alt="" />
                     <div>
                         <img width="100%" src="media/img/stake.png" alt="Genie Signal" />

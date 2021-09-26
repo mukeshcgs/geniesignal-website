@@ -15,10 +15,7 @@ const SecThree = () => {
                 </Col>
             </Row> */}
             <Row>
-                <Col sm={6}>
-                    <img class="" width="350" src="media/img/stats.png" alt="" />
-                </Col>
-                <Col sm={6}>
+                <Col sm={8}>
                     <div className=" ">
                         <h1><b>Make money </b> by <b>using and owning trading technology</b> that works for me?</h1>
                         <p>Users Pick From Powerful Algorithms to Stake to Own</p>
@@ -27,6 +24,9 @@ const SecThree = () => {
                             <Button size="lg">Launch The App</Button>
                         </div>
                     </div>
+                </Col>
+                <Col sm={4}>
+                    <img class="" width="100%" src="media/img/stats.png" alt="" />
                 </Col>
             </Row>
         </Container>

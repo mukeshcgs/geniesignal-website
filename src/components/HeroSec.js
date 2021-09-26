@@ -13,7 +13,7 @@ const HeroSec = () => {
         bottomEle.scrollIntoView({ behavior: "smooth" });
     }
 
-    return <header className="hero-sec" >
+    return <section className="hero-sec" >
         <BackgroundVideo
             blur={2}
             videoSource={videoSource} >
@@ -44,7 +44,7 @@ const HeroSec = () => {
 
 
 
-    </header >;
+    </section >;
 }
 
 // HeroSec.propTypes = propTypes;

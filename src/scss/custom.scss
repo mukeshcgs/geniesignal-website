@@ -17,6 +17,9 @@
   
   section {
       padding: 5rem 0;
+      @media(max-width: 480px) {
+          padding: 2.5rem;
+      }
   }
   
   .sec-one {
@@ -174,5 +177,15 @@
           margin: 15px auto;
           border: #f1f1f1 1px solid;
           opacity: 0.4;
+      }
+  }
+  
+  @media (max-width: 567px) {
+      .video {
+          display: none;
+      }
+      .content {
+          position: relative;
+          background-color: rgba(0, 0, 0, 0);
       }
   }
