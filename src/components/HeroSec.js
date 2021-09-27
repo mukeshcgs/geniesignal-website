@@ -21,7 +21,8 @@ const HeroSec = () => {
                 <div className='sub-content' >
                     <Container id="hero-sec"  >
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>
                                 <div className="gen-card">
                                     <h1><b>OWN</b> AND <b>USE TRADING TECHNOLOGY</b> FROM GLOBAL COMPETING DEVELOPERS</h1>
                                     <p>Top automatic trading tools that deploy instantly to your broker account.</p>
@@ -32,6 +33,7 @@ const HeroSec = () => {
                                     <h3>TRADING DEVELOPERS PROVE THE WORTH OF THEIR TECHNOLOGY BY COMPETING FOR LISTING</h3>
                                 </div>
                             </Col>
+                            <Col sm={2}></Col>
                             {/* <Col sm={5}>
                     <div className="gen-card">
                     </div>

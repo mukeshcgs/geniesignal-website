@@ -13,13 +13,13 @@ const DevSec = () => {
         bottomEle.scrollIntoView({ behavior: "smooth" });
     }
 
-    return <section className="hero-sec" >
+    return <section className="dev-sec" >
         <BackgroundVideo
             blur={2}
             videoSource={videoSource} >
             <div className='content'>
                 <div className='sub-content' >
-                    <Container id="hero-sec"  >
+                    <Container id="dev-sec"  >
                         <Row>
                             <Col sm={12}>
                                 <div className="gen-card">
