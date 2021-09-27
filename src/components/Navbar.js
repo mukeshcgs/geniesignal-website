@@ -13,7 +13,7 @@ const propTypes = {};
 const defaultProps = {};
 
 const Navigation = () => {
-  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark">
+  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark" fixed="top" sticky="top">
     <Navbar.Brand href="#home">
       <Link className="" to="/"><img height="35" src="media/img/genie-logo-inline.png" alt="Genie Signal" /></Link>
     </Navbar.Brand>
