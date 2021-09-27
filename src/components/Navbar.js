@@ -24,8 +24,8 @@ const Navigation = () => {
       <Nav className="mr-auto">
       </Nav>
       <Nav>
-        {/* <Link to="/">Home</Link> */}
-        {/* <Link to="/developers">developers</Link> */}
+        <Link to="/faq">FAQ</Link>
+        <Link to="/developers">developers</Link>
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/developers">Developers</Nav.Link>
         <Nav.Link href="https://geniesignal.webflow.io/" target="_blank">Launch The App</Nav.Link>
