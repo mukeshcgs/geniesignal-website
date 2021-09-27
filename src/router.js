@@ -18,7 +18,7 @@ export default (prop) => (
             {/* <Route exact path="/" component={() => <Main  history={history} />} /> */}
             <Route exact path="/" component={() => <Home history={history} />} />
             <Route exact path="/developers" component={() => <Developer history={history} />} />
-            <Route exact path="/faqs" component={() => <Faq history={history} />} />
+            <Route exact path="/faq" component={() => <Faq history={history} />} />
             <Route component={() => <Home history={history} />} />
         </Switch>
     </HashRouter>
