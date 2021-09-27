@@ -2,7 +2,7 @@ import { Accordion, Card, Container, Row, Col, Navbar, Nav, NavDropdown, Form, F
 
 function Faq() {
     return (<section className="faq-sec">
-        <Container id="hero-sec"  >
+        <Container id="hero-sec" className="pt-5" >
             <Row >
                 <Col sm={12} className="pb-5">
                     <h1> <b>Frequently asked questions</b></h1>

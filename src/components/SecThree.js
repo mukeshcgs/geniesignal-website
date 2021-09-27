@@ -9,13 +9,11 @@ const defaultProps = {};
 const SecThree = () => {
     return <section className="stake-sec" >
         <Container id="stake-sec">
-            {/* <Row>
-                <Col sm={12}>
-                    <h1><b>Make money </b> by <b>using and owning trading technology</b> that works for me?</h1>
-                </Col>
-            </Row> */}
             <Row>
-                <Col sm={8}>
+                <Col sm={5}>
+                    <img class="" width="100%" src="media/img/stats.png" alt="" />
+                </Col>
+                <Col sm={7}>
                     <div >
                         <h1 className="dark-blue"><b>Make money </b> by <b>using and owning trading technology</b> that works for me?</h1>
                         <p>Users Pick From Powerful Algorithms to Stake to Own</p>
@@ -25,9 +23,7 @@ const SecThree = () => {
                         </div>
                     </div>
                 </Col>
-                <Col sm={4}>
-                    <img class="" width="100%" src="media/img/stats.png" alt="" />
-                </Col>
+
             </Row>
         </Container>
     </section>;

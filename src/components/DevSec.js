@@ -13,8 +13,36 @@ const DevSec = () => {
         bottomEle.scrollIntoView({ behavior: "smooth" });
     }
 
-    return <section className="dev-sec" >
+    return <section className="hero-sec" >
         <BackgroundVideo
+            blur={2}
+            videoSource={videoSource} >
+            <div className='content'>
+                <div className='sub-content' >
+                    <Container id="hero-sec"  >
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>
+                                <div className="gen-card">
+                                    <h1><b>GET LISTED: LIST YOUR TRADING ALGO</b></h1>
+                                    <h3>Submit your technology for listing in the form below</h3>
+                                    <div className="cta mb-3">
+                                        <Button size="lg">Get Started</Button>
+                                        <Button size="lg">How to list</Button>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col sm={2}></Col>
+                            {/* <Col sm={5}>
+                    <div className="gen-card">
+                    </div>
+                </Col> */}
+                        </Row>
+                    </Container>
+                </div>
+            </div>
+        </BackgroundVideo>
+        {/* <BackgroundVideo
             blur={2}
             videoSource={videoSource} >
             <div className='content'>
@@ -34,12 +62,12 @@ const DevSec = () => {
                             {/* <Col sm={5}>
                     <div className="gen-card">
                     </div>
-                </Col> */}
+                </Col>  
                         </Row>
                     </Container>
                 </div>
             </div>
-        </BackgroundVideo>
+        </BackgroundVideo> */}
 
 
 

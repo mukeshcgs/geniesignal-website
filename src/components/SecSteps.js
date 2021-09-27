@@ -11,7 +11,7 @@ const defaultProps = {};
  */
 const SecSteps = () => {
     return <section className="steps-sec" >
-        <img class="bg" src="media/img/bg.png" alt="" />
+        {/* <img class="bg" src="media/img/bg.png" alt="" /> */}
 
         <Container id="steps-sec"  >
             <Row>

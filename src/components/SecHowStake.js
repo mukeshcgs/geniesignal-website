@@ -6,12 +6,8 @@ const propTypes = {};
 
 const defaultProps = {};
 
-/**
- * 
- */
 const SecHowStake = () => {
     return <section className="stake-sec" >
-
         <Container id="stake-sec">
             <Row className="sec-heading">
                 <Col sm={12}>
@@ -39,7 +35,7 @@ const SecHowStake = () => {
                     </div>
                 </Col>
                 <Col sm={5}>
-                    <img class="bg" src="media/img/bg-Y.png" alt="" />
+                    {/* <img class="bg" src="media/img/bg-Y.png" alt="" /> */}
                     <div>
                         <img width="100%" src="media/img/stack_old.png" alt="Genie Signal" />
                     </div>

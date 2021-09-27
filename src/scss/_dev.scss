@@ -1,12 +1,15 @@
+.dev {
+    background: #000;
+}
+
 .dev-sec {
     display: flex;
     background: $clr-primary-dark;
-    background: #ffffff;
     align-content: center;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: white;
+    // color: white;
     padding-top: 0px;
     height: 60vh;
     min-height: 50vh;

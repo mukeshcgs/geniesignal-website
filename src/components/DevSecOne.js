@@ -18,13 +18,16 @@ const DevSecOne = () => {
                     <div className="gen-card text-center">
                         <h1>Submit Your  <b>Trading Strategies</b> For<b> Listing</b> </h1>
                     </div>
+                    <h4 className="text-center text-white">Fields marked with an asterisk (*) are required.
+                    </h4>
                 </Col>
                 <Col sm={1}></Col>
             </Row>
-            <Row>
+            <Row className="pt-3">
                 <Col sm={2}></Col>
 
                 <Col sm={8}>
+
                     <Form>
                         <Form.Row>
                             <Form.Group as={Col} controlId="formGridPassword">
