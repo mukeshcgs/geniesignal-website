@@ -23,7 +23,7 @@ const HeroSec = () => {
                         <Row>
                             <Col sm={12}>
                                 <div className="gen-card">
-                                    <h1><b>OWN</b> AND <b>USE</b> TRADING TECHNOLOGY FROM GLOBAL COMPETING DEVELOPERS</h1>
+                                    <h1><b>OWN</b> AND <b>USE TRADING TECHNOLOGY</b> FROM GLOBAL COMPETING DEVELOPERS</h1>
                                     <p>Top automatic trading tools that deploy instantly to your broker account.</p>
                                     <div className="cta mb-3">
                                         <Button size="lg">Launch The App</Button>

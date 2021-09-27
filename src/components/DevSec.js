@@ -26,8 +26,8 @@ const DevSec = () => {
                                     <h1>GET LISTED   <b>LIST YOUR TRADING ALGO</b>  </h1>
                                     <p>Submit your technology for listing in the form below</p>
                                     <div className="cta mb-3">
-                                        <Button size="lg">Launch The App</Button>
-                                        <Button size="lg">Pricing</Button>
+                                        <Button size="lg">Get started</Button>
+                                        <Button size="lg">How to list</Button>
                                     </div>
                                 </div>
                             </Col>
