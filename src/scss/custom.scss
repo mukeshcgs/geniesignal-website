@@ -140,7 +140,7 @@
       display: none;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 560px) {
       .vid-container {
           position: relative;
           height: 100%;
@@ -164,7 +164,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 0;
+          padding: 5rem 0;
       }
       .sub-content {
           text-align: center;
@@ -179,6 +179,13 @@
           border: #f1f1f1 1px solid;
           opacity: 0.4;
       }
+  }
+  
+  @media (min-width: 768px) {
+      .video {
+          width: auto;
+      }
+      .content {}
   }
   
   @media (max-width: 768px) {
