@@ -27,8 +27,8 @@ const HeroSec = () => {
                                     <h1><b>OWN</b> AND <b>USE TRADING TECHNOLOGY</b> FROM GLOBAL COMPETING DEVELOPERS</h1>
                                     <p>Top automatic trading tools that deploy instantly to your broker account.</p>
                                     <div className="cta mb-3">
-                                        <Button size="lg">Launch The App</Button>
-                                        <Button size="lg">Pricing</Button>
+                                        <Button className="mb-3" size="lg">Launch The App</Button>
+                                        <Button className="mb-3" size="lg">Pricing</Button>
                                     </div>
                                     <h3>TRADING DEVELOPERS PROVE THE WORTH OF THEIR TECHNOLOGY BY COMPETING FOR LISTING</h3>
                                 </div>

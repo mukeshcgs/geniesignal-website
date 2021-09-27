@@ -15,7 +15,7 @@ const SecSteps = () => {
 
         <Container id="steps-sec"  >
             <Row>
-                <Col sm={4}>
+                <Col sm={4} className="mb-3">
                     <div className="steps-card">
                         <span className="step-num">01</span>
                         <h3>No logins required, access secured by MetaMask wallet.</h3>
@@ -23,14 +23,14 @@ const SecSteps = () => {
                     </div>
 
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} className="mb-3">
                     <div className="steps-card">
                         <span className="step-num">02</span>
 
                         <h3>Research and select investment strategies from the drop down menu. </h3><h3>The strategies historical data and back-testing data can give you an edge.</h3>
                     </div>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} className="mb-3">
                     <div className="steps-card">
                         <span className="step-num">03</span>
                         <h3>

@@ -13,7 +13,7 @@ const propTypes = {};
 const defaultProps = {};
 
 const Navigation = () => {
-  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark" fixed="top" >
+  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark"  >
     <Navbar.Brand href="#home">
       <Link className="" to="/">
         <img
