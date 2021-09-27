@@ -15,21 +15,22 @@ const SecHowStake = () => {
         <Container id="stake-sec">
             <Row className="sec-heading">
                 <Col sm={12}>
-                    <h1>How can I <b>stake ownership in trading tech</b> that works for me?</h1>
+                    <h1 className="dark-blue">How can I <b>stake ownership in trading tech</b> that works for me?</h1>
                 </Col>
             </Row>
             <Row className="ownership">
-                <Col sm={5}>
+                <Col sm={7}>
                     <div >
                         <p>After 3-6 months of a new trading technology successfully listing on Genie Signal, access is available only to licensed users.
                         </p>
                         <p>Genie Signal creates an NFT for trading technology that many investors can own and use. Load Ethereum into your MetaMask wallet, select the trading technology you want to own, and press the stake button.</p>
                     </div>
                     <div className="mb-4">
-                        <h2>Payments and Rewards    </h2>
+                        <h2 className="clr-primary">Payments and Rewards    </h2>
                         <p>There is no minimum, 1/3 of the funds goes to the developer, and 1/3 goes back to staking owners of the trading technology.</p>
-                    </div><div className="mb-4">
-                        <h2>Owners receive 1/3 of generated license fees from the use of their selected trading technology</h2>
+                    </div>
+                    <div className="mb-4">
+                        <h2 className="clr-primary">Owners receive 1/3 of generated license fees from the use of their selected trading technology</h2>
                         <p>Now you can make money not only using, but staking trading algorithms.</p>
 
                         <div className="cta mb-4">
@@ -37,10 +38,10 @@ const SecHowStake = () => {
                         </div>
                     </div>
                 </Col>
-                <Col sm={7}>
+                <Col sm={5}>
                     <img class="bg" src="media/img/bg-Y.png" alt="" />
                     <div>
-                        <img width="100%" src="media/img/stake.png" alt="Genie Signal" />
+                        <img width="100%" src="media/img/stack_old.png" alt="Genie Signal" />
                     </div>
                 </Col>
             </Row>

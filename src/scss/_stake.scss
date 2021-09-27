@@ -1,12 +1,12 @@
 .stake-sec {
     display: flex;
-    background: #110031;
+    background: $clr-primary-dark;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: white;
+    color: #00214d;
     transition: all 0.8s ease-in-out;
     background-image: './media/img/bg.png';
     .step-num {
@@ -25,14 +25,13 @@
         transition: all 0.8s ease-in-out;
     }
     h1 {
-        font-weight: 200;
-        background-clip: text !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent;
-        background: linear-gradient(to right, #2567F9, #FE4988 50%);
-        background-position: 0 0;
+        // background-clip: text !important;
+        // -webkit-background-clip: text !important;
+        // -webkit-text-fill-color: transparent;
+        // background: linear-gradient(to right, #2567F9, #FE4988 50%);
+        // background-position: 0 0;
         transition: all 0.8s ease-in-out;
-        font-weight: 200;
+        // font-weight: 200;
         margin-bottom: 2.5rem;
     }
     // &:hover {

@@ -14,7 +14,7 @@ const SecPricing = () => {
         <Container id="price-sec">
             <Row className="sec-heading">
                 <Col sm={12} className="text-center">
-                    <h1>Discover our <b>Pricing </b></h1>
+                    <h1 className="dark-blue">Discover our <b>Pricing </b></h1>
                     <p>Algorithms are tested and free for the first 6 months, then, users can stake these amounts
                     </p>
                 </Col>
@@ -32,8 +32,8 @@ const SecPricing = () => {
                             <li>Individual License</li>
                         </ul>
                         <div className="cta mb-3">
-                            <a href="https://geniesignal.on.fleek.co/#/">
-                                <img width="24" src="./media/svg/arrow-right.svg" /></a>
+                            <a className="btn btn-primary" href="https://geniesignal.on.fleek.co/#/">
+                                Start Stacking &nbsp; <img width="24" src="./media/svg/arrow-right.svg" /></a>
                         </div>
                     </div>
                 </Col>
@@ -49,8 +49,8 @@ const SecPricing = () => {
                             <li>Individual License</li>
                         </ul>
                         <div className="cta mb-3">
-                            <a href="https://geniesignal.on.fleek.co/#/">
-                                <img width="24" src="./media/svg/arrow-right.svg" /></a>
+                            <a className="btn btn-primary" href="https://geniesignal.on.fleek.co/#/">
+                                Start Stacking &nbsp;  <img width="24" src="./media/svg/arrow-right.svg" /></a>
                         </div>
                     </div>
                 </Col>
@@ -66,8 +66,8 @@ const SecPricing = () => {
                             <li>Individual License</li>
                         </ul>
                         <div className="cta mb-3">
-                            <a href="https://geniesignal.on.fleek.co/#/">
-                                <img width="24" src="./media/svg/arrow-right.svg" /></a>
+                            <a className="btn btn-primary" href="https://geniesignal.on.fleek.co/#/">
+                                Start Stacking &nbsp; <img width="24" src="./media/svg/arrow-right.svg" /></a>
                         </div>
                     </div>
                 </Col>
@@ -83,8 +83,8 @@ const SecPricing = () => {
                             <li>Individual License</li>
                         </ul>
                         <div className="cta mb-3">
-                            <a href="https://geniesignal.on.fleek.co/#/">
-                                <img width="24" src="./media/svg/arrow-right.svg" /></a>
+                            <a className="btn btn-primary" href="https://geniesignal.on.fleek.co/#/">
+                                Start Stacking &nbsp;  <img width="24" src="./media/svg/arrow-right.svg" /></a>
                         </div>
                     </div>
                 </Col>
@@ -100,8 +100,8 @@ const SecPricing = () => {
                             <li>Open API support</li>
                         </ul>
                         <div className="cta mb-3">
-                            <a href="https://geniesignal.on.fleek.co/#/">
-                                <img width="24" src="./media/svg/arrow-right.svg" /></a>
+                            <a className="btn btn-primary" href="https://geniesignal.on.fleek.co/#/">
+                                Start Stacking &nbsp;  <img width="24" src="./media/svg/arrow-right.svg" /></a>
                         </div>
                     </div>
                 </Col>

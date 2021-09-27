@@ -1,5 +1,5 @@
 .navbar {
-    background: #110031;
+    // background: $clr-primary-dark;
     color: white;
 }
 
@@ -7,6 +7,9 @@
     .navbar-nav {
         .nav-link {
             color: rgba(255, 255, 255, 1);
+            &:hover {
+                color: $clr-primary;
+            }
         }
     }
 }
@@ -14,7 +17,7 @@
 .faq-btn {
     color: #fff;
     background-color: #8a51fb;
-    border-color: #110031;
+    border-color: $clr-primary-dark;
     background-image: linear-gradient( 90deg, #6c03ff 5%, #9246ff);
     border-radius: 2rem;
     padding-left: 1rem !important;

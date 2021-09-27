@@ -13,9 +13,13 @@ const propTypes = {};
 const defaultProps = {};
 
 const Navigation = () => {
-  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark" fixed="top" sticky="top">
+  return <Navbar collapseOnSelect expand="lg" bg="" variant="dark" fixed="top" >
     <Navbar.Brand href="#home">
-      <Link className="" to="/"><img height="35" src="media/img/genie-logo-inline.png" alt="Genie Signal" /></Link>
+      <Link className="" to="/">
+        <img
+          height="90"
+          src="media/img/genie-logo.png" alt="Genie Signal" />
+      </Link>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">

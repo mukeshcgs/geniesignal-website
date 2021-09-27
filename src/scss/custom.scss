@@ -12,7 +12,7 @@
       font-weight: 300;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      background: #110031;
+      background: $clr-primary-dark;
   }
   
   section {
@@ -43,12 +43,14 @@
   }
   
   h1 {
-      font-weight: 200;
-      background-clip: text !important;
-      -webkit-background-clip: text !important;
-      -webkit-text-fill-color: transparent;
-      background: linear-gradient(to right, #2567F9, #FE4988 50%);
-      background-position: 0 0;
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: $clr-primary;
+      //   background-clip: text !important;
+      //   -webkit-background-clip: text !important;
+      //   -webkit-text-fill-color: transparent;
+      //   background: linear-gradient(to right, #2567F9, #FE4988 50%);
+      //   background-position: 0 0;
       transition: all 0.8s ease-in-out;
       b {
           font-weight: 700;
@@ -76,8 +78,17 @@
       margin-bottom: 2.5rem;
   }
   
+  .dark-blue {
+      color: #00214d;
+  }
+  
+  .clr-primary {
+      color: $clr-primary;
+  }
+  
   .btn {
       letter-spacing: 1px;
+      border: 0px;
   }
   
   .btn-primary {
@@ -151,7 +162,7 @@
       .video {
           width: 100%;
           height: 100%;
-          opacity: 0.1;
+          opacity: 0.3;
       }
       /* Add some content at the bottom of the video/page */
       .content {

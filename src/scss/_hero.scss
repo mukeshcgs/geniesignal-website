@@ -1,6 +1,6 @@
 .hero-sec {
     display: flex;
-    background: #110031;
+    background: #000;
     align-content: center;
     justify-content: space-between;
     flex-direction: row;
@@ -9,11 +9,11 @@
     padding-top: 0px;
     h1 {
         font-weight: 200;
-        background-clip: text !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent;
-        background: linear-gradient(to right, #2567F9, #FE4988 75%);
-        background-position: 0 0;
+        // background-clip: text !important;
+        // -webkit-background-clip: text !important;
+        // -webkit-text-fill-color: transparent;
+        // background: linear-gradient(to right, #2567F9, #FE4988 50%);
+        // background-position: 0 0;
         transition: all 0.8s ease-in-out;
     }
 }

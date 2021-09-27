@@ -16,8 +16,8 @@ const SecThree = () => {
             </Row> */}
             <Row>
                 <Col sm={8}>
-                    <div className=" ">
-                        <h1><b>Make money </b> by <b>using and owning trading technology</b> that works for me?</h1>
+                    <div >
+                        <h1 className="dark-blue"><b>Make money </b> by <b>using and owning trading technology</b> that works for me?</h1>
                         <p>Users Pick From Powerful Algorithms to Stake to Own</p>
                         <p>Algo’s are researched and created by independent developers who compete to get them listed on Genie Signal as Trading NFT’s.</p>
                         <div className="cta mb-3">

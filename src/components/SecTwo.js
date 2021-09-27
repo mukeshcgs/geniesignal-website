@@ -18,7 +18,7 @@ const SecTwo = () => {
                 <Col sm={7}>
                     <div className=" ">
                         <h1><b>Access all licensed algos</b> by owning <b>trading technology</b> of your choice</h1>
-                        <p>Algo's that are older than three months are only available to Genie Signal trading technology owners.</p>
+                        <h4>Algo's that are older than three months are only available to Genie Signal trading technology owners.</h4>
                         <div className="cta mb-3">
                             <Button size="lg">Pricing</Button>
                         </div>
