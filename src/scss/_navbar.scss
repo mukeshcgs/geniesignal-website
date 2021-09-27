@@ -10,3 +10,19 @@
         }
     }
 }
+
+.faq-btn {
+    color: #fff;
+    background-color: #8a51fb;
+    border-color: #110031;
+    background-image: linear-gradient( 90deg, #6c03ff 5%, #9246ff);
+    border-radius: 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    // background-clip: text !important;
+    // -webkit-background-clip: text !important;
+    // -webkit-text-fill-color: transparent;
+    // background: linear-gradient(to right, #2567F9, #FE4988 50%);
+    // background-position: 0 0;
+    transition: all 0.8s ease-in-out;
+}

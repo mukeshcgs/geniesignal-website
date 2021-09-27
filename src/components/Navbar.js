@@ -32,9 +32,9 @@ const Navigation = () => {
       <Nav>
         <Link className="nav-link" to="/">Home</Link>
         <Link className="nav-link" to="/developers">Developers</Link>
-        <Link className="nav-link" to="/faq">FAQ</Link>
         <Nav.Link href="https://geniesignal.webflow.io/" target="_blank">Launch The App</Nav.Link>
         <Nav.Link href="https://metamask.io/download" target="_blank">Download MetaMask</Nav.Link>
+        <Link className="nav-link faq-btn" to="/faq">FAQ</Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;
