@@ -41,9 +41,6 @@ const HeroSec = () => {
                 </div>
             </div>
         </BackgroundVideo>
-
-
-
     </section >;
 }
 

@@ -18,14 +18,6 @@ const Navigation = () => {
       <Link className="" to="/"><img height="35" src="media/img/genie-logo-inline.png" alt="Genie Signal" /></Link>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    {/* <button
-      aria-controls="responsive-navbar-nav"
-      type="button"
-      aria-label="Toggle navigation"
-      class="navbar-toggler collapsed">
-
-      <span class="navbar-toggler-icon"><img height="35" src="media/svg/menu.svg" alt="Genie Signal" /></span>
-    </button> */}
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
       </Nav>
