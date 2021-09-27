@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import './App.scss';
+import Routes from './router';
 
 import Navigation from './components/Navbar';
 import HeroSec from './components/HeroSec';
@@ -22,8 +23,10 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Developer from './pages/Developer';
 import Faq from './pages/Faq';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
+
 function App() {
-  return (<Router>
+  return (<HashRouter>
     <div className="App">
       <header>
         <Navigation />
@@ -36,7 +39,9 @@ function App() {
         <SecHowStake />
         <SecThree />
         <SecPricing /> */}
-        <Switch>
+        <Routes />
+
+        {/* <Switch>
           <Route exact path="/">
             <Home />
           </Route>
@@ -49,11 +54,11 @@ function App() {
           <Route exact path="/faq">
             <Faq />
           </Route>
-        </Switch>
+        </Switch> */}
       </main>
       <Footer />
     </div>
-  </Router>);
+  </HashRouter>);
 }
 
 export default App;
