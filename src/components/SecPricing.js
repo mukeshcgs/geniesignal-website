@@ -91,7 +91,7 @@ const SecPricing = () => {
                 <Col sm={4}>
                     <div class="price-card">
                         <div className="price">
-                            <span class="price-num">Negotiated License Fees</span>
+                            <span class="price-num small-txt">Negotiated License Fees</span>
                             <span class="price-time">Institutional</span>
                         </div>
                         <ul className="features">

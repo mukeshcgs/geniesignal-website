@@ -1,6 +1,13 @@
 .navbar {
     // background: $clr-primary-dark;
     color: white;
+    @media (max-width: 560px) {
+        .navbar-brand {
+            img {
+                height: 50px !important;
+            }
+        }
+    }
 }
 
 .navbar-dark {

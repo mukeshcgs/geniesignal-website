@@ -55,6 +55,9 @@
       b {
           font-weight: 700;
       }
+      @media (max-width: 560px) {
+          font-size: 2.5rem;
+      }
   }
   
   .bg {
