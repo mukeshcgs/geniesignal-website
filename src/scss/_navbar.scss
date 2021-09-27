@@ -26,6 +26,9 @@ header {
     .navbar-nav {
         .nav-link {
             color: rgba(255, 255, 255, 1);
+            font-weight: 400;
+            padding-left: 1rem;
+            padding-right: 1rem;
             &:hover {
                 color: $clr-primary;
             }
